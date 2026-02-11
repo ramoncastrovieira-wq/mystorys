@@ -1,18 +1,19 @@
 import React from 'react'
 import { AiFillHeart } from 'react-icons/ai'
-import {FaComnet} from "react-icons/fa";
+import {FaCommet} from "react-icons/fa";
+import "./ReqUserPostCard.css"
 
-const ReqUserPostPart = () => {
+const ReqUserPostCard = () => {
     return (
     <div>
-        <div> 
+        <div className='w-60 h-60'>
             <img className='cursor-pointer' src="https://cdn.pixabay.com/photo/2023/03/04/15/53/duck-7829778_640.jpg" alt="" />
-        <div>
-            <div>
+        <div className='overlay'>
+            <div className='overlaytext'>
                 <div>
                     <AifillHeart></AifillHeart> <span>10</span>
                 </div>
-                <div>FaComment</div>
+                <div><FaComment/> <span>30</span></div>
             </div>
         </div>
     </div>

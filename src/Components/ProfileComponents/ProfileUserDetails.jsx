@@ -13,7 +13,7 @@ const Profile = () => {
                         />   
             </div>
 
-            <div className="space-y-5">
+            <div className="space-y-5 ">
                 <div className="flex space-x-10 itemc">
                     <p>username</p>
                     <button>Edit Profile</button>
