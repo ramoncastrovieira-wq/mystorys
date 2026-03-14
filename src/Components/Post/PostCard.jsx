@@ -81,7 +81,14 @@ const PostCard = () => {
             </div>
         </div>
         
-        <CommentModal handlePostLike={handlePostLike} onClose={onClose} isOpen={isOpen} handleSavePost={handleSavePost} isPostLiked={isPostLiked} isSaved={isSaved} />
+        <CommentModal handlePostLike={handlePostLike} 
+        onClose={onClose} 
+        isOpen={isOpen} 
+        handleSavePost={handleSavePost} 
+        isPostLiked={isPostLiked} 
+        isSaved={isSaved} 
+        />
+        
     </div>
 </div>
   );
